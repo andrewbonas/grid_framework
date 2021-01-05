@@ -1,0 +1,96 @@
+/* General */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* Typography */
+
+body {
+  line-height: 1.5;
+  font-family: $font-sans;
+}
+
+.font-sans {
+  font-family: $font-sans;
+}
+
+.font-serif {
+  font-family: $font-serif;
+}
+
+.text-dark {
+  color: $dark;
+}
+
+.text-muted {
+  color: $muted;
+}
+
+.text-light {
+  color: $light;
+}
+
+.text-white {
+  color: $white;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-thin {
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+/* Background */
+
+.bg-dark {
+  background-color: $dark;
+}
+
+.bg-muted {
+  background-color: $muted;
+}
+
+.bg-light {
+  background-color: $light;
+}
+
+.bg-white {
+  background-color: $white;
+}

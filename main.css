@@ -1,3 +1,136 @@
+/* 
+	Reset
+	http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Variables */
+/* Typography */
+/* Colors */
 .grid {
   display: grid;
   grid-template-columns: repeat(var(--grid-cols), 1fr);
@@ -148,5 +281,76 @@
 
   .column-sm-12 {
     grid-column: span 12; } }
+/* General */
+* {
+  box-sizing: border-box; }
 
-/*# sourceMappingURL=grid.css.map */
+img {
+  max-width: 100%;
+  height: auto; }
+
+ol,
+ul {
+  list-style: none; }
+
+/* Typography */
+body {
+  line-height: 1.5;
+  font-family: sans-serif, Verdana; }
+
+.font-sans {
+  font-family: sans-serif, Verdana; }
+
+.font-serif {
+  font-family: "Times New Roman", Times, serif; }
+
+.text-dark {
+  color: #4a4a4a; }
+
+.text-muted {
+  color: rgba(74, 74, 74, 0.7); }
+
+.text-light {
+  color: #eee; }
+
+.text-white {
+  color: #fff; }
+
+.font-bold {
+  font-weight: 700; }
+
+.font-thin {
+  font-weight: 200; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 20px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 12px; }
+
+/* Background */
+.bg-dark {
+  background-color: #4a4a4a; }
+
+.bg-muted {
+  background-color: rgba(74, 74, 74, 0.7); }
+
+.bg-light {
+  background-color: #eee; }
+
+.bg-white {
+  background-color: #fff; }
+
+/*# sourceMappingURL=main.css.map */
