@@ -129,6 +129,7 @@ table {
   border-spacing: 0; }
 
 /* Variables */
+/* predefined break-points */
 /* Typography */
 /* Colors */
 .grid {
@@ -245,7 +246,7 @@ table {
 
   .column-md-12 {
     grid-column: span 12; } }
-@media (min-width: 576px) {
+@media (min-width: 596px) {
   .column-sm-1 {
     grid-column: span 1; }
 

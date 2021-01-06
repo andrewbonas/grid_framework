@@ -13,7 +13,7 @@ $grid-columns: 12 !default;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $mediaMaxWidth) {
   @for $i from 1 through $grid-columns {
     .column-lg-#{$i} {
       grid-column: span $i;
@@ -21,7 +21,7 @@ $grid-columns: 12 !default;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $mediaBp1Width) {
   @for $i from 1 through $grid-columns {
     .column-md-#{$i} {
       grid-column: span $i;
@@ -29,7 +29,7 @@ $grid-columns: 12 !default;
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: $mediaMinWidth) {
   @for $i from 1 through $grid-columns {
     .column-sm-#{$i} {
       grid-column: span $i;

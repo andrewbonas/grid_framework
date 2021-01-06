@@ -132,6 +132,11 @@ table {
 
 /* Variables */
 
+/* predefined break-points */
+$mediaMaxWidth: 992px;
+$mediaBp1Width: 768px;
+$mediaMinWidth: 596px;
+
 /* Typography */
 $font-serif: "Times New Roman", Times, serif !default;
 $font-sans: sans-serif, Verdana !default;
