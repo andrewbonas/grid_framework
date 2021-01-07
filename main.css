@@ -129,12 +129,11 @@ table {
   border-spacing: 0; }
 
 /* Variables */
-/* predefined break-points */
 /* Typography */
 /* Colors */
 .grid {
   display: grid;
-  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  grid-template-columns: repeat(12, minmax(0, 1fr));
   column-gap: 20px;
   margin: 0 auto; }
 
@@ -210,7 +209,7 @@ table {
 
   .column-lg-12 {
     grid-column: span 12; } }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.9px) {
   .column-md-1 {
     grid-column: span 1; }
 
@@ -246,7 +245,7 @@ table {
 
   .column-md-12 {
     grid-column: span 12; } }
-@media (min-width: 596px) {
+@media (max-width: 767.9px) {
   .column-sm-1 {
     grid-column: span 1; }
 
