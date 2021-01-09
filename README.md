@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository is a responsive 12-column grid layout built as a final CSS exercies from The Odin Project
+This repository is a responsive 12-column grid layout built as a final CSS exercies from The Odin Project.
 
 ## The Basics
 
@@ -30,7 +30,7 @@ Columns are defined by "column-1" to "column-12":
 ## Breakpoints
 
 Predefined breakpoints are included for a responsive design.
-The breakpoints are inspired by Bootstrap:
+The breakpoints are inspired by Bootstrap:<br>
 Large: min 992px, Medium: 768px-992px, Small: max 768px.
 
 These breakpoints can be defined with the columns:
@@ -46,32 +46,33 @@ These breakpoints can be defined with the columns:
 
 ## Extras
 
-### Typograrphy
+### Typography
 
-All typography is defined by "font-"
+All typography is defined by "font-".
 
-Two font-family's are available, sans and sans-serif:
-  "font-serif": "Times New Roman", Times, serif 
+Two font-family's are available, sans and sans-serif:<br>
+  "font-serif": "Times New Roman", Times, serif<br>
   "font-sans": sans-serif, Verdana 
 
-Font-weight:
-  "font-bold": 700
+Font-weight:<br>
+  "font-bold": 700<br>
   "font-thin": 200
 
 ### Colour
 
-Background-color is defined as "bg-"
+Background-color is defined as "bg-"<br>
 Text color is defined as "text-"
 
-Color shades available:
-  dark: `4a4a4a`
-  muted: `rgba(74, 74, 74, 0.7)`
-  light: `eee`
+Color shades available:<br>
+  dark: `4a4a4a`<br>
+  muted: `rgba(74, 74, 74, 0.7)`<br>
+  light: `eee`<br>
   white: `fff`
 
   ## References
 
   [The Odin Project](https://www.theodinproject.com/courses/html-and-css/lessons/design-your-own-grid-based-framework)
+  
   [Demo](https://andrewbonas.github.io/odin_clone/)
 
 
