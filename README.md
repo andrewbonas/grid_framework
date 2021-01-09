@@ -51,6 +51,7 @@ These breakpoints can be defined with the columns:
 All typography is defined by "font-".
 
 Two font-family's are available, sans and sans-serif:<br>
+
   "font-serif": "Times New Roman", Times, serif<br>
   "font-sans": sans-serif, Verdana 
 
@@ -72,7 +73,7 @@ Color shades available:<br>
   ## References
 
   [The Odin Project](https://www.theodinproject.com/courses/html-and-css/lessons/design-your-own-grid-based-framework)
-  
+
   [Demo](https://andrewbonas.github.io/odin_clone/)
 
 
