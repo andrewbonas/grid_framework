@@ -65,10 +65,10 @@ Background-color is defined as "bg-"<br>
 Text color is defined as "text-"
 
 Color shades available:<br>
-  dark: `4a4a4a`<br>
-  muted: `rgba(74, 74, 74, 0.7)`<br>
-  light: `eee`<br>
-  white: `fff`
+  dark: ![#4a4a4a](https://via.placeholder.com/15/4a4a4a/000000?text=+) `4a4a4a`<br>
+  muted: ![#r4a4a4ab3](https://via.placeholder.com/15/r4a4a4ab3/000000?text=+) `r4a4a4ab3`<br>
+  light: ![#eee](https://via.placeholder.com/15/eee/000000?text=+) `eee`<br>
+  white: ![#fff](https://via.placeholder.com/15/fff/000000?text=+) `fff`
 
   ## References
 
