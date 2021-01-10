@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository is a responsive 12-column grid layout built as a final CSS exercies from The Odin Project.
+This repository is a responsive 12-column grid layout built as a final CSS exercise from The Odin Project.
 
 ## The Basics
 
@@ -53,7 +53,7 @@ All typography is defined by "font-".
 Two font-family's are available, sans and sans-serif:<br>
 
   "font-serif": "Times New Roman", Times, serif<br>
-  "font-sans": sans-serif, Verdana 
+  "font-sans": sans-serif, Verdana
 
 Font-weight:<br>
   "font-bold": 700<br>
@@ -75,9 +75,3 @@ Color shades available:<br>
   [The Odin Project](https://www.theodinproject.com/courses/html-and-css/lessons/design-your-own-grid-based-framework)
 
   [Demo](https://andrewbonas.github.io/odin_clone/)
-
-
-
-
-
-
